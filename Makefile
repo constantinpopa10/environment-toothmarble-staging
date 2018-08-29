@@ -8,7 +8,8 @@ build: clean
 	helm version
 	helm init
 	helm repo add releases ${CHART_REPO}
-	helm repo add jenkins-x http://chartmuseum.build.cd.jenkins-x.io
+	helm repo add jenkins-x http://chartmuseum.build.cd.jenkins-x.io	
+	helm repo add activiti-cloud-charts https://activiti.github.io/activiti-cloud-charts/
 	helm dependency build ${DIR}
 	helm lint ${DIR}
 
