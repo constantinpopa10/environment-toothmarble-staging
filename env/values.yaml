@@ -22,7 +22,7 @@ expose:
   Annotations:
     helm.sh/hook: post-install,post-upgrade
     helm.sh/hook-delete-policy: hook-succeeded
-    global:
+global:
   keycloak:
     url: "http://activiti-keycloak.jx-staging.35.195.2.95.nip.io/auth"
 infrastructure:
