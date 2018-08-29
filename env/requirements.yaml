@@ -22,6 +22,9 @@ dependencies:
 - name: ttc-dashboard-ui
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.37
+- name: ttc-query-campaign
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 1.0.24
 - name: ttc-rb-english-campaign
   repository: http://jenkins-x-chartmuseum:8080
   version: 1.0.2
